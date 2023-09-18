@@ -1,0 +1,23 @@
+@import 'libs/bootstrap-reboot.min';
+
+@font-face {
+    font-family: raleway_d;
+    src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+    font-family: raleway_d;
+    src: url(../fonts/raleway-black.woff2);
+    font-weight: 900;
+}
+
+@import 'base/variables';
+
+body {
+    background-color: #010101;
+    color: #fff;
+    font-family: raleway_d, sans-serif;
+    line-height: 1.55
+}
+
+@import 'blocks/header';
+@import 'blocks/article';
